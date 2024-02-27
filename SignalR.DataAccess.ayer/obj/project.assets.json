@@ -1501,6 +1501,16 @@
             "rid": "win"
           }
         }
+      },
+      "SignalR.EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SignalR.EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SignalR.EntityLayer.dll": {}
+        }
       }
     }
   },
@@ -4074,6 +4084,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SignalR.EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../SignalR.EntityLayer/SignalR.EntityLayer.csproj",
+      "msbuildProject": "../SignalR.EntityLayer/SignalR.EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4081,7 +4096,8 @@
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.2",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.2"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.2",
+      "SignalR.EntityLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4120,7 +4136,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\cSharpDersleri\\SignalR_Project\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj": {
+              "projectPath": "C:\\cSharpDersleri\\SignalR_Project\\SignalR.EntityLayer\\SignalR.EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
