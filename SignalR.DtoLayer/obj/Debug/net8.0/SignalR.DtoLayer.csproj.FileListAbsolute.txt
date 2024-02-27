@@ -1,0 +1,12 @@
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\bin\Debug\net8.0\SignalR.DtoLayer.deps.json
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\bin\Debug\net8.0\SignalR.DtoLayer.dll
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\bin\Debug\net8.0\SignalR.DtoLayer.pdb
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\obj\Debug\net8.0\SignalR.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\obj\Debug\net8.0\SignalR.DtoLayer.AssemblyInfoInputs.cache
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\obj\Debug\net8.0\SignalR.DtoLayer.AssemblyInfo.cs
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\obj\Debug\net8.0\SignalR.DtoLayer.csproj.CoreCompileInputs.cache
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\obj\Debug\net8.0\SignalR.DtoLayer.sourcelink.json
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\obj\Debug\net8.0\SignalR.DtoLayer.dll
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\obj\Debug\net8.0\refint\SignalR.DtoLayer.dll
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\obj\Debug\net8.0\SignalR.DtoLayer.pdb
+C:\cSharpDersleri\SignalR_Project\SignalR.DtoLayer\obj\Debug\net8.0\ref\SignalR.DtoLayer.dll
