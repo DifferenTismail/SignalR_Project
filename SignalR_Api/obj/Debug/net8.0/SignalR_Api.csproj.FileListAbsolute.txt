@@ -141,3 +141,7 @@ C:\cSharpDersleri\SignalR_Project\SignalR_Api\obj\Debug\net8.0\refint\SignalR_Ap
 C:\cSharpDersleri\SignalR_Project\SignalR_Api\obj\Debug\net8.0\SignalR_Api.pdb
 C:\cSharpDersleri\SignalR_Project\SignalR_Api\obj\Debug\net8.0\SignalR_Api.genruntimeconfig.cache
 C:\cSharpDersleri\SignalR_Project\SignalR_Api\obj\Debug\net8.0\ref\SignalR_Api.dll
+C:\cSharpDersleri\SignalR_Project\SignalR_Api\bin\Debug\net8.0\AutoMapper.dll
+C:\cSharpDersleri\SignalR_Project\SignalR_Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\cSharpDersleri\SignalR_Project\SignalR_Api\bin\Debug\net8.0\SignalR.DtoLayer.dll
+C:\cSharpDersleri\SignalR_Project\SignalR_Api\bin\Debug\net8.0\SignalR.DtoLayer.pdb
