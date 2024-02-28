@@ -518,6 +518,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalR_Api.Controllers.ProductController",
+    "Method": "ProductListWithCategory",
+    "RelativePath": "api/Product/ProductListWithCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalR_Api.Controllers.SocialMediaController",
     "Method": "SocialMediaList",
     "RelativePath": "api/SocialMedia",
