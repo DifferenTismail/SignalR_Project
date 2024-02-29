@@ -224,3 +224,5 @@ C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\bin\Debug\net8.0\runtimes\win\li
 C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\obj\Debug\net8.0\SignalR_WebUI.csproj.AssemblyReference.cache
 C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\obj\Debug\net8.0\SignalR_.B27890DB.Up2Date
+C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\bin\Debug\net8.0\SignalR.DtoLayer.dll
+C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\bin\Debug\net8.0\SignalR.DtoLayer.pdb
