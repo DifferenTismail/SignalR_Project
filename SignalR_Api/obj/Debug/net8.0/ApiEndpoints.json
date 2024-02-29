@@ -208,7 +208,7 @@
   {
     "ContainingType": "SignalR_Api.Controllers.CategoryController",
     "Method": "GetCategory",
-    "RelativePath": "api/Category/GetCategory",
+    "RelativePath": "api/Category/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -216,7 +216,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
