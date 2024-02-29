@@ -2048,6 +2048,16 @@
             "rid": "win"
           }
         }
+      },
+      "SignalR.DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SignalR.DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SignalR.DtoLayer.dll": {}
+        }
       }
     }
   },
@@ -5849,11 +5859,17 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SignalR.DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../SignalR.DtoLayer/SignalR.DtoLayer.csproj",
+      "msbuildProject": "../SignalR.DtoLayer/SignalR.DtoLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.1"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.1",
+      "SignalR.DtoLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5892,7 +5908,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\cSharpDersleri\\SignalR_Project\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj": {
+              "projectPath": "C:\\cSharpDersleri\\SignalR_Project\\SignalR.DtoLayer\\SignalR.DtoLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
