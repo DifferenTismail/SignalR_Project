@@ -2,6 +2,8 @@
 using Newtonsoft.Json;
 using SignalR.DtoLayer.CategoryDto;
 using SignalR_WebUI.Dtos.CategoryDtos;
+using System.Text;
+using CreateCategoryDto = SignalR_WebUI.Dtos.CategoryDtos.CreateCategoryDto;
 
 namespace SignalR_WebUI.Controllers
 {
@@ -26,5 +28,36 @@ namespace SignalR_WebUI.Controllers
             }
             return View();
         }
-    }
+        [HttpGet]
+        public IActionResult CreateCategory()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> CreateCategory(CreateCategoryDto createCategoryDto)
+        {
+            createCategoryDto.CategoryStatus = true;
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createCategoryDto);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMesaj = await client.PostAsync("https://localhost:7178/api/Category", stringContent);
+            if (responseMesaj.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+        public async Task<IActionResult> DeleteCategory(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+			var responseMessage = await client.DeleteAsync($"https://localhost:7178/api/Category/{id}");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+
+	}
 }
