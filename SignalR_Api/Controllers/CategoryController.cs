@@ -44,7 +44,7 @@ namespace SignalR_Api.Controllers
             _categoryService.TDelete(value);
             return Ok("Kategori Silindi");  
         }
-        [HttpGet("GetCategory")]
+        [HttpGet("{id}")]
         public IActionResult GetCategory(int id) 
         {
             var value = _categoryService.TGetById(id);
