@@ -19,9 +19,9 @@ namespace SignalR.DataAccessLayer.EntityFramework
 
         public List<Product> GetProductsWithCategories()
         {
-            //var context = new SignalRContext();
-            //var values = context.Products.Include(x => x.Category).Select(y );
-            //return values;
+            var context = new SignalRContext();
+            var values = context.Products.Include(x => x.Category).Select(y );
+            return values;
         }
     }
 }
