@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using SignalR.DtoLayer.CategoryDto;
 using SignalR.DtoLayer.ProductDto;
 using System.Net.Http;
@@ -31,8 +33,19 @@ namespace SignalR_WebUI.Controllers
 			return View(values);
 		}
 		[HttpGet]
-		public IActionResult CreateProduct()
+		public async Task<IActionResult> CreateProduct()
 		{
+			var client= _httpClientFactory.CreateClient();
+			var responseMessage = await client.GetAsync("https://localhost:7178/api/Category");
+			var jsonData = await responseMessage.Content.ReadAsStringAsync();
+			var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
+			List<SelectListItem> values2 = (from x in values
+											select new SelectListItem
+											{
+												Text = x.CategoryName,
+												Value = x.CategoryID.ToString()
+											}).ToList();
+			ViewBag.v = values2;
 			return View();
 		}
 		[HttpPost]
@@ -59,8 +72,22 @@ namespace SignalR_WebUI.Controllers
 			}
 			return View();
 		}
+		[HttpGet]
 		public async Task<IActionResult> UpdateProduct(int id)
 		{
+			var client1 = _httpClientFactory.CreateClient();
+			var responseMessage1 = await client1.GetAsync("https://localhost:7178/api/Category");
+			var jsonData1 = await responseMessage1.Content.ReadAsStringAsync();
+			var values1 = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData1);
+			List<SelectListItem> values2 = (from x in values1
+											select new SelectListItem
+											{
+												Text = x.CategoryName,
+												Value = x.CategoryID.ToString()
+											}).ToList();
+			ViewBag.v = values2;
+
+
 			var client = _httpClientFactory.CreateClient();
 			var responseMessage = await client.GetAsync($"https://localhost:7178/api/Product/{id}");
 			if (responseMessage.IsSuccessStatusCode)
