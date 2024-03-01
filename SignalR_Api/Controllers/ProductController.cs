@@ -56,8 +56,8 @@ namespace SignalR_Api.Controllers
                 ImageUrl = createProductDto.ImageUrl,
                 Price = createProductDto.Price,
                 ProductName = createProductDto.ProductName,
-                ProductStatus = createProductDto.ProductStatus
-                
+                ProductStatus = createProductDto.ProductStatus,
+                CategoryID = createProductDto.CategoryID 
             });
             return Ok("Ürün Bilgisi Eklendi");
         }
@@ -68,7 +68,7 @@ namespace SignalR_Api.Controllers
             _productService.TDelete(value);
             return Ok("Ürün Bilgisi Bilgisi Silindi");
         }
-        [HttpGet("GetProduct")]
+        [HttpGet("{id}")]
         public IActionResult GetProduct(int id)
         {
 			var value = _productService.TGetById(id);
@@ -85,7 +85,8 @@ namespace SignalR_Api.Controllers
                 Price = updateProductDto.Price,
                 ProductName = updateProductDto.ProductName,
                 ProductStatus = updateProductDto.ProductStatus,
-                ProductID = updateProductDto.ProductID
+                ProductID = updateProductDto.ProductID,
+                CategoryID = updateProductDto.CategoryID
             });
             return Ok("Ürün Bilgisi Güncellendi");
         }
