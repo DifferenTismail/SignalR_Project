@@ -1,6 +1,6 @@
 ﻿namespace SignalR_WebUI.Dtos.CategoryDtos
 {
-	public class ResultCategoryDtos
+	public class ResultCategoryDto
 	{
 		public int CategoryID { get; set; }
 		public string CategoryName { get; set; }
