@@ -32,21 +32,22 @@ namespace SignalR_Api.Controllers
         [HttpGet("ProductListWithCategory")]
         public IActionResult ProductListWithCategory()
         {
-            var context = new SignalRContext();
-            var values = context.Products.Include(x => x.Category).Select(y => new ResultProductWithCategory
-            {
-                Description = y.Description,
-                ImageUrl = y.ImageUrl,
-                Price = y.Price,
-                ProductID = y.ProductID,
-                ProductName = y.ProductName,
-                ProductStatus = y.ProductStatus,
-                CategoryName = y.Category.CategoryName
-            });
-            return Ok(values.ToList());
+			var context = new SignalRContext();
+			var values = context.Products.Include(x => x.Category).Select(y => new ResultProductWithCategory
+			{
+				Description = y.Description,
+				ImageUrl = y.ImageUrl,
+				Price = y.Price,
+				ProductID = y.ProductID,
+				ProductName = y.ProductName,
+				ProductStatus = y.ProductStatus,
+				CategoryName = y.Category.CategoryName 
+			}).ToList();
+			return Ok(values.ToList());
+			
         }
 
-        [HttpPost]
+		[HttpPost]
         public IActionResult CreateProduct(CreateProductDto createProductDto)
         {
             _productService.TAdd(new Product()
@@ -60,7 +61,7 @@ namespace SignalR_Api.Controllers
             });
             return Ok("Ürün Bilgisi Eklendi");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteProduct(int id)
         {
             var value = _productService.TGetById(id);
@@ -70,9 +71,10 @@ namespace SignalR_Api.Controllers
         [HttpGet("GetProduct")]
         public IActionResult GetProduct(int id)
         {
-            var value = _productService.TGetById(id);
-            return Ok(value);
+			var value = _productService.TGetById(id);
+			return Ok(value);
         }
+
         [HttpPut]
         public IActionResult UpdateProduct(UpdateProductDto updateProductDto)
         {

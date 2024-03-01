@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.2",
+          "SignalR.DtoLayer": "1.0.0",
           "SignalR.EntityLayer": "1.0.0"
         },
         "runtime": {
@@ -921,6 +922,11 @@
           }
         }
       },
+      "SignalR.DtoLayer/1.0.0": {
+        "runtime": {
+          "SignalR.DtoLayer.dll": {}
+        }
+      },
       "SignalR.EntityLayer/1.0.0": {
         "runtime": {
           "SignalR.EntityLayer.dll": {}
@@ -1465,6 +1471,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "SignalR.DtoLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SignalR.EntityLayer/1.0.0": {
       "type": "project",

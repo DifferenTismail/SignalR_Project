@@ -16,3 +16,5 @@ C:\cSharpDersleri\SignalR_Project\SignalR.DataAccess.ayer\obj\Debug\net8.0\refin
 C:\cSharpDersleri\SignalR_Project\SignalR.DataAccess.ayer\obj\Debug\net8.0\SignalR.DataAccessLayer.pdb
 C:\cSharpDersleri\SignalR_Project\SignalR.DataAccess.ayer\obj\Debug\net8.0\SignalR.DataAccessLayer.genruntimeconfig.cache
 C:\cSharpDersleri\SignalR_Project\SignalR.DataAccess.ayer\obj\Debug\net8.0\ref\SignalR.DataAccessLayer.dll
+C:\cSharpDersleri\SignalR_Project\SignalR.DataAccess.ayer\bin\Debug\net8.0\SignalR.DtoLayer.dll
+C:\cSharpDersleri\SignalR_Project\SignalR.DataAccess.ayer\bin\Debug\net8.0\SignalR.DtoLayer.pdb
