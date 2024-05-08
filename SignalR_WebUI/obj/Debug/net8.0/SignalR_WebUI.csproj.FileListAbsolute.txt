@@ -226,3 +226,4 @@ C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\obj\Debug\net8.0\SignalR_WebUI.c
 C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\obj\Debug\net8.0\SignalR_.B27890DB.Up2Date
 C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\bin\Debug\net8.0\SignalR.DtoLayer.dll
 C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\bin\Debug\net8.0\SignalR.DtoLayer.pdb
+C:\cSharpDersleri\SignalR_Project\SignalR_WebUI\bin\Debug\net8.0\libman.json

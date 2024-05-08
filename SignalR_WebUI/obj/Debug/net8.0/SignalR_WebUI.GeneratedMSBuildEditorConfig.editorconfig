@@ -26,8 +26,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\cSharpDersleri\SignalR_Project\SignalR_WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/About/CreateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQ3JlYXRlQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/About/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcVXBkYXRlQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/AdminLayout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Booking/CreateBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDcmVhdGVCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Booking/UpdateBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xVcGRhdGVCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Category/CreateCategory.cshtml]
@@ -40,6 +64,42 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Category/UpdateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Contact/CreateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGVDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Contact/UpdateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxVcGRhdGVDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Discount/CreateDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcQ3JlYXRlRGlzY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Discount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Discount/UpdateDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcVXBkYXRlRGlzY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Feature/CreateFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZVxDcmVhdGVGZWF0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Feature/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Feature/UpdateFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZVxVcGRhdGVGZWF0dXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Home/Index.cshtml]
@@ -88,6 +148,42 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/SignalRDefault/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbmFsUkRlZmF1bHRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/SignalRDefault/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbmFsUkRlZmF1bHRcSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/SocialMedia/CreateSocialMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcQ3JlYXRlU29jaWFsTWVkaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/SocialMedia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/SocialMedia/UpdateSocialMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcVXBkYXRlU29jaWFsTWVkaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Statistic/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Testimonial/CreateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcQ3JlYXRlVGVzdGltb25pYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Testimonial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/Testimonial/UpdateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcVXBkYXRlVGVzdGltb25pYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/cSharpDersleri/SignalR_Project/SignalR_WebUI/Views/_ViewImports.cshtml]
