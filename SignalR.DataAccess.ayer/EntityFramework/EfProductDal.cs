@@ -13,15 +13,34 @@ namespace SignalR.DataAccessLayer.EntityFramework
 {
     public class EfProductDal : GenericRepository<Product>, IProductDal
     {
+        SignalRContext context = new SignalRContext();
         public EfProductDal(SignalRContext context) : base(context)
         {
         }
 
-		public List<Product> GetProductsWithCategories()
-		{
-			var context  = new SignalRContext();
-			var values = context.Products.Include(x => x.Category).ToList();
-			return values;
-		}
-	}
+        public List<Product> GetProductsWithCategories()
+        {
+            var values = context.Products.Include(x => x.Category).ToList();
+            return values;
+        }
+
+        public int ProductCount()
+        {
+            return context.Products.Count();
+        }
+
+        public int ProductCountByCategoryNameDrink()
+        {
+            return context.Products.Where(x => x.CategoryID == (context.Categorys
+            .Where(y => y.CategoryName == "İçecek").Select(z => z.CategoryID)
+            .FirstOrDefault())).Count();
+        }
+
+        public int ProductCountByCategoryNameHamburger()
+        {
+            return context.Products.Where(x => x.CategoryID == (context.Categorys
+            .Where(y => y.CategoryName == "Hamburger").Select(z => z.CategoryID)
+            .FirstOrDefault())).Count();
+        }
+    }
 }
