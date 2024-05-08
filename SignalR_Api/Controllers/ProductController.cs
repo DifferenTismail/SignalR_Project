@@ -22,11 +22,28 @@ namespace SignalR_Api.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
+        [HttpGet("ProductList")]
         public IActionResult ProductList()
         {
             var value = _mapper.Map<List<ResultProductDto>>(_productService.TGetListAll());
             return Ok(value);
+        }
+
+        [HttpGet("ProductCount")]
+        public IActionResult ProductCount() {
+            return Ok(_productService.TProductCount());
+        }
+
+        [HttpGet("ProductCountByHamburger")]
+        public IActionResult ProductCountByHamburger()
+        {
+            return Ok(_productService.TProductCountByCategoryNameHamburger());
+        }
+
+        [HttpGet("ProductCountByDrink")]
+        public IActionResult ProductCountByDrink()
+        {
+            return Ok(_productService.TProductCountByCategoryNameDrink());
         }
 
         [HttpGet("ProductListWithCategory")]
@@ -47,7 +64,7 @@ namespace SignalR_Api.Controllers
 			
         }
 
-		[HttpPost]
+		[HttpPost("CreateProduct")]
         public IActionResult CreateProduct(CreateProductDto createProductDto)
         {
             _productService.TAdd(new Product()
@@ -61,21 +78,21 @@ namespace SignalR_Api.Controllers
             });
             return Ok("Ürün Bilgisi Eklendi");
         }
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteProduct {id}")]
         public IActionResult DeleteProduct(int id)
         {
             var value = _productService.TGetById(id);
             _productService.TDelete(value);
             return Ok("Ürün Bilgisi Bilgisi Silindi");
         }
-        [HttpGet("{id}")]
+        [HttpGet("GetProduct {id}")]
         public IActionResult GetProduct(int id)
         {
 			var value = _productService.TGetById(id);
 			return Ok(value);
         }
 
-        [HttpPut]
+        [HttpPut("UpdateProduct")]
         public IActionResult UpdateProduct(UpdateProductDto updateProductDto)
         {
             _productService.TUpdate(new Product()
