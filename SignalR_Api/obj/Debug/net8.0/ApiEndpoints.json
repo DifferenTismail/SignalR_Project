@@ -27,22 +27,6 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.AboutController",
-    "Method": "DeleteAbout",
-    "RelativePath": "api/About",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR_Api.Controllers.AboutController",
     "Method": "UpdateAbout",
     "RelativePath": "api/About",
     "HttpMethod": "PUT",
@@ -59,8 +43,24 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.AboutController",
+    "Method": "DeleteAbout",
+    "RelativePath": "api/About/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.AboutController",
     "Method": "GetAbout",
-    "RelativePath": "api/About/GetAbout",
+    "RelativePath": "api/About/GetAbout/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -68,7 +68,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -101,22 +101,6 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.BookingController",
-    "Method": "DeleteBooking",
-    "RelativePath": "api/Booking",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR_Api.Controllers.BookingController",
     "Method": "UpdateBooking",
     "RelativePath": "api/Booking",
     "HttpMethod": "PUT",
@@ -133,8 +117,24 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.BookingController",
+    "Method": "DeleteBooking",
+    "RelativePath": "api/Booking/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.BookingController",
     "Method": "GetBooking",
-    "RelativePath": "api/Booking/GetBooking",
+    "RelativePath": "api/Booking/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -142,7 +142,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -222,6 +222,36 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalR_Api.Controllers.CategoryController",
+    "Method": "ActiveCategoryCount",
+    "RelativePath": "api/Category/ActiveCategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.CategoryController",
+    "Method": "CategoryCount",
+    "RelativePath": "api/Category/CategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.CategoryController",
+    "Method": "PassiveCategoryCount",
+    "RelativePath": "api/Category/PassiveCategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalR_Api.Controllers.ContactController",
     "Method": "ContactList",
     "RelativePath": "api/Contact",
@@ -249,22 +279,6 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.ContactController",
-    "Method": "DeleteContact",
-    "RelativePath": "api/Contact",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR_Api.Controllers.ContactController",
     "Method": "UpdateContact",
     "RelativePath": "api/Contact",
     "HttpMethod": "PUT",
@@ -281,8 +295,24 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.ContactController",
+    "Method": "DeleteContact",
+    "RelativePath": "api/Contact/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.ContactController",
     "Method": "GetContact",
-    "RelativePath": "api/Contact/GetContact",
+    "RelativePath": "api/Contact/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -290,7 +320,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -323,22 +353,6 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.DiscountController",
-    "Method": "DeleteDiscount",
-    "RelativePath": "api/Discount",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR_Api.Controllers.DiscountController",
     "Method": "UpdateDiscount",
     "RelativePath": "api/Discount",
     "HttpMethod": "PUT",
@@ -355,8 +369,24 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.DiscountController",
+    "Method": "DeleteDiscount",
+    "RelativePath": "api/Discount/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.DiscountController",
     "Method": "GetContact",
-    "RelativePath": "api/Discount/GetDiscount",
+    "RelativePath": "api/Discount/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -364,7 +394,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -397,22 +427,6 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.FeatureController",
-    "Method": "DeleteFeature",
-    "RelativePath": "api/Feature",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR_Api.Controllers.FeatureController",
     "Method": "UpdateFeature",
     "RelativePath": "api/Feature",
     "HttpMethod": "PUT",
@@ -429,8 +443,24 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.FeatureController",
+    "Method": "DeleteFeature",
+    "RelativePath": "api/Feature/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.FeatureController",
     "Method": "GetFeature",
-    "RelativePath": "api/Feature/GetFeature",
+    "RelativePath": "api/Feature/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -438,25 +468,15 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "SignalR_Api.Controllers.ProductController",
-    "Method": "ProductList",
-    "RelativePath": "api/Product",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR_Api.Controllers.ProductController",
     "Method": "CreateProduct",
-    "RelativePath": "api/Product",
+    "RelativePath": "api/Product/CreateProduct",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -471,24 +491,8 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.ProductController",
-    "Method": "UpdateProduct",
-    "RelativePath": "api/Product",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "updateProductDto",
-        "Type": "SignalR.DtoLayer.ProductDto.UpdateProductDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR_Api.Controllers.ProductController",
     "Method": "DeleteProduct",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "api/Product/DeleteProduct {id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -504,7 +508,7 @@
   {
     "ContainingType": "SignalR_Api.Controllers.ProductController",
     "Method": "GetProduct",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "api/Product/GetProduct {id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -519,12 +523,68 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.ProductController",
+    "Method": "ProductCount",
+    "RelativePath": "api/Product/ProductCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.ProductController",
+    "Method": "ProductCountByDrink",
+    "RelativePath": "api/Product/ProductCountByDrink",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.ProductController",
+    "Method": "ProductCountByHamburger",
+    "RelativePath": "api/Product/ProductCountByHamburger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.ProductController",
+    "Method": "ProductList",
+    "RelativePath": "api/Product/ProductList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.ProductController",
     "Method": "ProductListWithCategory",
     "RelativePath": "api/Product/ProductListWithCategory",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Product/UpdateProduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateProductDto",
+        "Type": "SignalR.DtoLayer.ProductDto.UpdateProductDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -555,22 +615,6 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.SocialMediaController",
-    "Method": "DeleteSocialMedia",
-    "RelativePath": "api/SocialMedia",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR_Api.Controllers.SocialMediaController",
     "Method": "UpdateSocialMedia",
     "RelativePath": "api/SocialMedia",
     "HttpMethod": "PUT",
@@ -587,8 +631,24 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.SocialMediaController",
+    "Method": "DeleteSocialMedia",
+    "RelativePath": "api/SocialMedia/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.SocialMediaController",
     "Method": "GetSocialMedia",
-    "RelativePath": "api/SocialMedia/GetSocialMedia",
+    "RelativePath": "api/SocialMedia/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -596,7 +656,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -629,22 +689,6 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.TestimonialController",
-    "Method": "DeleteTestimonial",
-    "RelativePath": "api/Testimonial",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR_Api.Controllers.TestimonialController",
     "Method": "UpdateTestimonial",
     "RelativePath": "api/Testimonial",
     "HttpMethod": "PUT",
@@ -661,8 +705,24 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.TestimonialController",
+    "Method": "DeleteTestimonial",
+    "RelativePath": "api/Testimonial/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.TestimonialController",
     "Method": "GetTestimonial",
-    "RelativePath": "api/Testimonial/GetTestimonial",
+    "RelativePath": "api/Testimonial/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -670,7 +730,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
