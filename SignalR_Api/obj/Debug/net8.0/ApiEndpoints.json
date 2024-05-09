@@ -474,6 +474,36 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalR_Api.Controllers.OrdersController",
+    "Method": "ActiveOrderCount",
+    "RelativePath": "api/Orders/ActiveOrderCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.OrdersController",
+    "Method": "LastOrderPrice",
+    "RelativePath": "api/Orders/LastOrderPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.OrdersController",
+    "Method": "TotalOrderCount",
+    "RelativePath": "api/Orders/TotalOrderCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalR_Api.Controllers.ProductController",
     "Method": "CreateProduct",
     "RelativePath": "api/Product/CreateProduct",
@@ -519,6 +549,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.ProductController",
+    "Method": "ProductAvgPriceByHamburger",
+    "RelativePath": "api/Product/ProductAvgPriceByHamburger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
