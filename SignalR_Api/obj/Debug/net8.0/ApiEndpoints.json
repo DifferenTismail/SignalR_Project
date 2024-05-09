@@ -573,6 +573,36 @@
   },
   {
     "ContainingType": "SignalR_Api.Controllers.ProductController",
+    "Method": "ProductNameByMaxPrice",
+    "RelativePath": "api/Product/ProductNameByMaxPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.ProductController",
+    "Method": "ProductNameByMinPrice",
+    "RelativePath": "api/Product/ProductNameByMinPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.ProductController",
+    "Method": "ProductPriceAvg",
+    "RelativePath": "api/Product/ProductPriceAvg",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.ProductController",
     "Method": "UpdateProduct",
     "RelativePath": "api/Product/UpdateProduct",
     "HttpMethod": "PUT",
