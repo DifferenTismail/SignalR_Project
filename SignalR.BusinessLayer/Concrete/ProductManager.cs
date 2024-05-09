@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SignalR.BusinessLayer.Concrete
 {
-    public class ProductManager: IProductService
+    public class ProductManager : IProductService
     {
         private readonly IProductDal _productDal;
 
@@ -72,6 +72,11 @@ namespace SignalR.BusinessLayer.Concrete
         public decimal TProductPriceAvg()
         {
             return _productDal.ProductPriceAvg();
+        }
+
+        public decimal TProductAvgPriceByHamburger()
+        {
+            return _productDal.ProductAvgPriceByHamburger();
         }
 
         public void TUpdate(Product entity)
