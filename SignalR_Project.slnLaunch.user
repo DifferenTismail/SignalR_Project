@@ -1,6 +1,17 @@
 [
   {
     "Name": "New Profile",
-    "Projects": []
+    "Projects": [
+      {
+        "Name": "SignalR_Api\\SignalR_Api.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "SignalR_WebUI\\SignalR_WebUI.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      }
+    ]
   }
 ]
