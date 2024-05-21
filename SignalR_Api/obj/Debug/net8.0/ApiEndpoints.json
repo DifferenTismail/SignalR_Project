@@ -474,6 +474,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalR_Api.Controllers.MoneyCasesController",
+    "Method": "TotalMoneyCaseAmount",
+    "RelativePath": "api/MoneyCases/TotalMoneyCaseAmount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalR_Api.Controllers.OrdersController",
     "Method": "ActiveOrderCount",
     "RelativePath": "api/Orders/ActiveOrderCount",
@@ -487,6 +497,16 @@
     "ContainingType": "SignalR_Api.Controllers.OrdersController",
     "Method": "LastOrderPrice",
     "RelativePath": "api/Orders/LastOrderPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Api.Controllers.OrdersController",
+    "Method": "TodayTotalPrice",
+    "RelativePath": "api/Orders/TodayTotalPrice",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
